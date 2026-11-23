@@ -141,7 +141,7 @@ variable "db_username" {
 variable "db_engine_version" {
   description = "Postgres engine version on RDS."
   type        = string
-  default     = "16.4"
+  default     = "16.15"
 }
 
 variable "db_instance_class" {
